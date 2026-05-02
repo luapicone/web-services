@@ -1,160 +1,463 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Servicios Digitales | Desarrollo web, automatización e IA</title>
-    <meta
-      name="description"
-      content="Desarrollo páginas web, sistemas, automatizaciones, chatbots y agentes de IA a medida para negocios, marcas y proyectos."
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <header class="site-header">
-      <div class="container nav">
-        <a class="brand" href="#inicio">Digital Services</a>
-        <nav class="menu">
-          <a href="#servicios">Servicios</a>
-          <a href="#proceso">Proceso</a>
-          <a href="#beneficios">Beneficios</a>
-          <a href="#contacto">Contacto</a>
-        </nav>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Servicios Digitales a Medida</title>
+<meta name="description" content="Desarrollo web, automatización de procesos, sistemas, dashboards, chatbots y agentes de IA a medida para negocios y marcas.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg: #0a0a0a;
+    --bg2: #111111;
+    --bg3: #1a1a1a;
+    --text: #f0ede8;
+    --text2: #9a9690;
+    --text3: #5c5a57;
+    --accent: #c8ff00;
+    --accent2: #e8f56a;
+    --border: rgba(240,237,232,0.08);
+    --border2: rgba(240,237,232,0.15);
+    --font-head: 'Syne', sans-serif;
+    --font-body: 'DM Sans', sans-serif;
+  }
+
+  html { scroll-behavior: smooth; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--font-body);
+    font-size: 16px;
+    line-height: 1.6;
+    overflow-x: hidden;
+  }
+
+  nav {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 100;
+    padding: 1.25rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--border);
+    backdrop-filter: blur(20px);
+    background: rgba(10,10,10,0.8);
+  }
+
+  .nav-logo {
+    font-family: var(--font-head);
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    color: var(--text);
+    text-decoration: none;
+  }
+
+  .nav-logo span { color: var(--accent); }
+
+  .nav-links {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+  }
+
+  .nav-links a {
+    color: var(--text2);
+    text-decoration: none;
+    font-size: 0.875rem;
+    font-weight: 400;
+    transition: color 0.2s;
+    letter-spacing: 0.01em;
+  }
+
+  .nav-links a:hover { color: var(--text); }
+
+  .nav-cta {
+    background: var(--accent) !important;
+    color: #0a0a0a !important;
+    padding: 0.5rem 1.25rem;
+    border-radius: 100px;
+    font-weight: 500 !important;
+    font-size: 0.875rem !important;
+    transition: opacity 0.2s !important;
+  }
+
+  .nav-cta:hover { opacity: 0.85 !important; }
+
+  .hero {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 8rem 2rem 4rem;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .hero-grid-bg {
+    position: absolute;
+    inset: 0;
+    background-image:
+      linear-gradient(var(--border) 1px, transparent 1px),
+      linear-gradient(90deg, var(--border) 1px, transparent 1px);
+    background-size: 60px 60px;
+    mask-image: radial-gradient(ellipse 80% 60% at 50% 0%, black 30%, transparent 100%);
+  }
+
+  .hero-glow {
+    position: absolute;
+    top: -20%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 600px;
+    height: 600px;
+    background: radial-gradient(circle, rgba(200,255,0,0.12) 0%, transparent 70%);
+    pointer-events: none;
+  }
+
+  .hero-content, .container {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .hero-badge, .section-label {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: rgba(200,255,0,0.1);
+    border: 1px solid rgba(200,255,0,0.25);
+    color: var(--accent);
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding: 0.375rem 0.875rem;
+    border-radius: 100px;
+    margin-bottom: 2rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+
+  .hero-badge::before, .section-label::before {
+    content: '';
+    width: 6px; height: 6px;
+    background: var(--accent);
+    border-radius: 50%;
+  }
+
+  h1 {
+    font-family: var(--font-head);
+    font-size: clamp(3rem, 8vw, 7rem);
+    font-weight: 800;
+    line-height: 0.95;
+    letter-spacing: -0.04em;
+    margin-bottom: 2rem;
+  }
+
+  h1 em {
+    font-style: normal;
+    color: var(--accent);
+    display: block;
+  }
+
+  .hero-desc {
+    font-size: 1.125rem;
+    color: var(--text2);
+    max-width: 620px;
+    line-height: 1.7;
+    margin-bottom: 2.5rem;
+    font-weight: 300;
+  }
+
+  .hero-actions, .cta-row {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .btn-primary, .btn-ghost {
+    text-decoration: none;
+    border-radius: 100px;
+    padding: 0.875rem 2rem;
+    font-size: 0.95rem;
+    transition: 0.2s;
+  }
+
+  .btn-primary {
+    background: var(--accent);
+    color: #0a0a0a;
+    font-weight: 600;
+  }
+
+  .btn-primary:hover { opacity: 0.85; transform: translateY(-1px); }
+
+  .btn-ghost {
+    color: var(--text);
+    border: 1px solid var(--border2);
+  }
+
+  .btn-ghost:hover { background: var(--bg3); border-color: var(--text3); }
+
+  .hero-scroll {
+    position: absolute;
+    bottom: 2rem; right: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--text3);
+    font-size: 0.8rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+
+  .hero-scroll::after {
+    content: '';
+    width: 30px; height: 1px;
+    background: var(--text3);
+  }
+
+  section { padding: 6rem 2rem; }
+
+  .section-heading {
+    max-width: 760px;
+    margin-bottom: 2.5rem;
+  }
+
+  .section-heading h2 {
+    font-family: var(--font-head);
+    font-size: clamp(2.2rem, 4vw, 4rem);
+    line-height: 1;
+    letter-spacing: -0.04em;
+    margin-bottom: 1rem;
+  }
+
+  .section-heading p, .service-card p, .process-card p, .feature-card p, .contact-text {
+    color: var(--text2);
+  }
+
+  .services-grid, .process-grid, .feature-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1.25rem;
+  }
+
+  .service-card, .process-card, .feature-card, .contact-box {
+    background: rgba(255,255,255,0.03);
+    border: 1px solid var(--border);
+    border-radius: 28px;
+    padding: 1.6rem;
+  }
+
+  .service-card h3, .process-card h3, .feature-card h3 {
+    font-family: var(--font-head);
+    font-size: 1.4rem;
+    margin-bottom: 0.8rem;
+    letter-spacing: -0.03em;
+  }
+
+  .service-card {
+    min-height: 220px;
+  }
+
+  .service-index, .process-index {
+    font-size: 0.8rem;
+    color: var(--accent);
+    margin-bottom: 1rem;
+    display: inline-block;
+    letter-spacing: 0.08em;
+  }
+
+  .alt {
+    background: rgba(255,255,255,0.02);
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+  }
+
+  .feature-grid {
+    grid-template-columns: 1.1fr 1fr 1fr;
+  }
+
+  .contact-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+
+  .contact-box h2 {
+    font-family: var(--font-head);
+    font-size: clamp(2rem, 4vw, 3.6rem);
+    line-height: 1;
+    letter-spacing: -0.04em;
+    margin-bottom: 1rem;
+  }
+
+  footer {
+    padding: 2rem;
+    border-top: 1px solid var(--border);
+    color: var(--text3);
+    font-size: 0.9rem;
+  }
+
+  @media (max-width: 960px) {
+    .nav-links { display: none; }
+    .services-grid, .process-grid, .feature-grid, .contact-box { grid-template-columns: 1fr; display: grid; }
+    .hero { padding: 7rem 1.25rem 4rem; }
+    section { padding: 4.5rem 1.25rem; }
+    nav { padding: 1rem 1.25rem; }
+    .hero-scroll { display: none; }
+  }
+</style>
+</head>
+<body>
+  <nav>
+    <a href="#inicio" class="nav-logo">Luca<span>.</span>Digital</a>
+    <ul class="nav-links">
+      <li><a href="#servicios">Servicios</a></li>
+      <li><a href="#proceso">Proceso</a></li>
+      <li><a href="#diferencial">Diferencial</a></li>
+      <li><a class="nav-cta" href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero" id="inicio">
+    <div class="hero-grid-bg"></div>
+    <div class="hero-glow"></div>
+    <div class="hero-content">
+      <div class="hero-badge">Soluciones digitales a medida</div>
+      <h1>Desarrollo web, <em>automatización e IA</em> para negocios y marcas</h1>
+      <p class="hero-desc">
+        Creo páginas web, landing pages, sistemas, dashboards, automatizaciones, chatbots y agentes de inteligencia artificial diseñados para mejorar procesos, ordenar operaciones y generar oportunidades reales.
+      </p>
+      <div class="hero-actions">
+        <a class="btn-primary" href="#contacto">Quiero mi proyecto</a>
+        <a class="btn-ghost" href="#servicios">Ver servicios</a>
       </div>
-    </header>
+    </div>
+    <div class="hero-scroll">Scroll</div>
+  </section>
 
-    <main>
-      <section class="hero" id="inicio">
-        <div class="container hero-grid">
-          <div>
-            <span class="eyebrow">Desarrollo web, automatización e inteligencia artificial</span>
-            <h1>Soluciones digitales a medida para hacer crecer tu negocio</h1>
-            <p class="hero-copy">
-              Desarrollo páginas web, landing pages, sistemas, dashboards, automatizaciones,
-              chatbots y agentes de IA pensados para mejorar procesos, vender mejor y ordenar la operación.
-            </p>
-            <div class="hero-actions">
-              <a class="btn btn-primary" href="#contacto">Quiero mi proyecto</a>
-              <a class="btn btn-secondary" href="#servicios">Ver servicios</a>
-            </div>
-            <ul class="hero-points">
-              <li>Webs profesionales y modernas</li>
-              <li>Automatización de tareas y procesos</li>
-              <li>Chatbots y agentes de IA a medida</li>
-            </ul>
-          </div>
-          <div class="hero-card">
-            <div class="hero-card-badge">Servicios principales</div>
-            <div class="mini-card">
-              <strong>Desarrollo Web</strong>
-              <span>Landing pages, webs corporativas, sitios comerciales y plataformas a medida.</span>
-            </div>
-            <div class="mini-card">
-              <strong>Automatización</strong>
-              <span>Procesos internos, integraciones y reducción de tareas manuales.</span>
-            </div>
-            <div class="mini-card">
-              <strong>IA y Chatbots</strong>
-              <span>Asistentes inteligentes para atención, soporte, ventas y operación.</span>
-            </div>
-          </div>
-        </div>
-      </section>
+  <section id="servicios">
+    <div class="container">
+      <div class="section-heading">
+        <div class="section-label">Servicios</div>
+        <h2>Qué puedo desarrollar para tu negocio</h2>
+        <p>
+          Trabajo con soluciones digitales pensadas para verse bien, funcionar bien y aportar valor real.
+        </p>
+      </div>
+      <div class="services-grid">
+        <article class="service-card">
+          <span class="service-index">01</span>
+          <h3>Desarrollo Web</h3>
+          <p>Páginas web profesionales, landing pages, sitios institucionales y webs comerciales con diseño moderno y enfoque en conversión.</p>
+        </article>
+        <article class="service-card">
+          <span class="service-index">02</span>
+          <h3>Sistemas y Dashboards</h3>
+          <p>Paneles internos, herramientas de gestión, interfaces operativas y soluciones a medida para ordenar información y procesos.</p>
+        </article>
+        <article class="service-card">
+          <span class="service-index">03</span>
+          <h3>Automatización de Procesos</h3>
+          <p>Automatizaciones e integraciones para ahorrar tiempo, reducir tareas manuales y hacer más eficiente la operación.</p>
+        </article>
+        <article class="service-card">
+          <span class="service-index">04</span>
+          <h3>Chatbots</h3>
+          <p>Asistentes conversacionales para atención al cliente, captación de leads, soporte y organización de consultas.</p>
+        </article>
+        <article class="service-card">
+          <span class="service-index">05</span>
+          <h3>Agentes de IA</h3>
+          <p>Soluciones inteligentes personalizadas para ayudar a vender, responder, analizar información o asistir equipos.</p>
+        </article>
+        <article class="service-card">
+          <span class="service-index">06</span>
+          <h3>Soluciones a Medida</h3>
+          <p>Herramientas digitales desarrolladas según la necesidad específica de cada cliente, proyecto o negocio.</p>
+        </article>
+      </div>
+    </div>
+  </section>
 
-      <section class="section" id="servicios">
-        <div class="container">
-          <div class="section-heading">
-            <span class="eyebrow">Servicios</span>
-            <h2>Qué puedo desarrollar</h2>
-            <p>
-              Cada proyecto se adapta a la necesidad real del cliente, priorizando claridad, funcionalidad y resultado.
-            </p>
-          </div>
-          <div class="cards-grid">
-            <article class="service-card">
-              <h3>Desarrollo Web</h3>
-              <p>Páginas web, landing pages, sitios institucionales, webs comerciales y experiencias digitales modernas.</p>
-            </article>
-            <article class="service-card">
-              <h3>Sistemas y dashboards</h3>
-              <p>Herramientas internas, paneles de gestión y soluciones a medida para ordenar información y operaciones.</p>
-            </article>
-            <article class="service-card">
-              <h3>Automatización de procesos</h3>
-              <p>Automatizaciones que reducen tareas manuales, mejoran tiempos y optimizan flujos de trabajo.</p>
-            </article>
-            <article class="service-card">
-              <h3>Chatbots</h3>
-              <p>Asistentes conversacionales para atención, consultas, ventas, soporte y contacto con clientes.</p>
-            </article>
-            <article class="service-card">
-              <h3>Agentes de IA</h3>
-              <p>Soluciones inteligentes personalizadas para operar, responder, organizar información o asistir equipos.</p>
-            </article>
-            <article class="service-card">
-              <h3>Soluciones personalizadas</h3>
-              <p>Desarrollo digital adaptado a negocios, marcas, emprendimientos y operaciones específicas.</p>
-            </article>
-          </div>
-        </div>
-      </section>
+  <section class="alt" id="proceso">
+    <div class="container">
+      <div class="section-heading">
+        <div class="section-label">Proceso</div>
+        <h2>Cómo trabajo cada proyecto</h2>
+        <p>Cada solución se construye con criterio visual, lógica funcional y foco en el resultado.</p>
+      </div>
+      <div class="process-grid">
+        <article class="process-card">
+          <span class="process-index">01</span>
+          <h3>Relevamiento</h3>
+          <p>Entiendo el problema, el objetivo y el tipo de herramienta que más conviene desarrollar.</p>
+        </article>
+        <article class="process-card">
+          <span class="process-index">02</span>
+          <h3>Estrategia</h3>
+          <p>Defino estructura, flujo, experiencia de usuario y alcance técnico necesario.</p>
+        </article>
+        <article class="process-card">
+          <span class="process-index">03</span>
+          <h3>Diseño y Desarrollo</h3>
+          <p>Construyo una solución moderna, clara, funcional y lista para ser usada en serio.</p>
+        </article>
+      </div>
+    </div>
+  </section>
 
-      <section class="section alt" id="proceso">
-        <div class="container">
-          <div class="section-heading">
-            <span class="eyebrow">Proceso de trabajo</span>
-            <h2>Cómo encaro cada proyecto</h2>
-          </div>
-          <div class="steps-grid">
-            <div class="step-card"><span>01</span><h3>Relevamiento</h3><p>Entiendo el objetivo, el problema y el tipo de solución que más conviene.</p></div>
-            <div class="step-card"><span>02</span><h3>Estrategia</h3><p>Defino estructura, flujo, enfoque visual y funcionalidad necesaria.</p></div>
-            <div class="step-card"><span>03</span><h3>Diseño y desarrollo</h3><p>Construyo una solución clara, moderna, escalable y orientada a resultados.</p></div>
-            <div class="step-card"><span>04</span><h3>Entrega</h3><p>Dejo una herramienta lista para usar, presentar, vender o seguir evolucionando.</p></div>
-          </div>
-        </div>
-      </section>
+  <section id="diferencial">
+    <div class="container">
+      <div class="section-heading">
+        <div class="section-label">Diferencial</div>
+        <h2>No hago solo diseño o código, desarrollo soluciones que sirven</h2>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card">
+          <h3>Visión práctica</h3>
+          <p>Busco que cada proyecto tenga una utilidad concreta, no solo una buena estética.</p>
+        </article>
+        <article class="feature-card">
+          <h3>Diseño + negocio</h3>
+          <p>Trabajo combinando imagen, estructura, claridad comercial y experiencia de usuario.</p>
+        </article>
+        <article class="feature-card">
+          <h3>Tecnología aplicada</h3>
+          <p>Uso automatización, IA y desarrollo a medida para resolver necesidades reales.</p>
+        </article>
+      </div>
+    </div>
+  </section>
 
-      <section class="section" id="beneficios">
-        <div class="container benefit-grid">
-          <div>
-            <span class="eyebrow">Por qué trabajar conmigo</span>
-            <h2>No hago solo diseño, desarrollo soluciones que aportan valor real</h2>
-          </div>
-          <div class="benefit-list">
-            <div class="benefit-item">
-              <strong>Enfoque práctico</strong>
-              <p>La prioridad es que la solución funcione, simplifique y mejore algo concreto.</p>
-            </div>
-            <div class="benefit-item">
-              <strong>Diseño + lógica + negocio</strong>
-              <p>Combino experiencia visual, estructura técnica y mirada comercial.</p>
-            </div>
-            <div class="benefit-item">
-              <strong>Desarrollo a medida</strong>
-              <p>No trabajo con plantillas genéricas cuando el proyecto necesita algo propio.</p>
-            </div>
-          </div>
+  <section id="contacto">
+    <div class="container">
+      <div class="contact-box">
+        <div>
+          <div class="section-label">Contacto</div>
+          <h2>Si necesitás una solución digital, hablemos</h2>
+          <p class="contact-text">
+            Puedo ayudarte a desarrollar una página web, un sistema, una automatización, un chatbot o una solución con IA adaptada a tu proyecto.
+          </p>
         </div>
-      </section>
+        <div class="cta-row">
+          <a class="btn-primary" href="mailto:contacto@tudominio.com">contacto@tudominio.com</a>
+          <a class="btn-ghost" href="https://wa.me/5490000000000" target="_blank" rel="noreferrer">WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </section>
 
-      <section class="section cta-section" id="contacto">
-        <div class="container cta-box">
-          <div>
-            <span class="eyebrow">Contacto</span>
-            <h2>Si necesitás una solución digital para tu negocio o proyecto, hablemos</h2>
-            <p>
-              Puedo ayudarte con una web, un sistema, una automatización, un chatbot o una solución con IA adaptada a lo que necesitás.
-            </p>
-          </div>
-          <div class="cta-actions">
-            <a class="btn btn-primary" href="mailto:contacto@tudominio.com">contacto@tudominio.com</a>
-            <a class="btn btn-secondary" href="https://wa.me/5490000000000" target="_blank" rel="noreferrer">WhatsApp</a>
-          </div>
-        </div>
-      </section>
-    </main>
-  </body>
+  <footer>
+    <div class="container">Desarrollo de soluciones digitales a medida.</div>
+  </footer>
+</body>
 </html>

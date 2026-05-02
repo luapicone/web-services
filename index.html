@@ -280,8 +280,37 @@
     border-bottom: 1px solid var(--border);
   }
 
-  .feature-grid {
+   .feature-grid {
     grid-template-columns: 1.1fr 1fr 1fr;
+  }
+
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1.25rem;
+    margin-top: 3rem;
+  }
+
+  .stat-card {
+    background: rgba(255,255,255,0.03);
+    border: 1px solid var(--border);
+    border-radius: 28px;
+    padding: 1.8rem;
+    display: grid;
+    gap: 0.65rem;
+  }
+
+  .stat-card strong {
+    font-family: var(--font-head);
+    font-size: clamp(2.8rem, 5vw, 4.6rem);
+    line-height: 0.9;
+    letter-spacing: -0.05em;
+    color: var(--text);
+  }
+
+  .stat-card span {
+    color: var(--text2);
+    font-size: 0.95rem;
   }
 
   .contact-box {
@@ -308,7 +337,7 @@
 
   @media (max-width: 960px) {
     .nav-links { display: none; }
-    .services-grid, .process-grid, .feature-grid, .contact-box { grid-template-columns: 1fr; display: grid; }
+    .services-grid, .process-grid, .feature-grid, .stats-grid, .contact-box { grid-template-columns: 1fr; display: grid; }
     .hero { padding: 7rem 1.25rem 4rem; }
     section { padding: 4.5rem 1.25rem; }
     nav { padding: 1rem 1.25rem; }
@@ -340,18 +369,18 @@
         <a class="btn-primary" href="#contacto">Quiero mi proyecto</a>
         <a class="btn-ghost" href="#servicios">Ver servicios</a>
       </div>
-      <div class="feature-grid" style="margin-top: 3rem;">
-        <article class="feature-card">
-          <h3>+20 proyectos</h3>
-          <p>Páginas web, sistemas, dashboards, automatizaciones y herramientas digitales desarrolladas para distintos tipos de clientes y necesidades.</p>
+      <div class="stats-grid">
+        <article class="stat-card">
+          <strong>+20</strong>
+          <span>Proyectos desarrollados</span>
         </article>
-        <article class="feature-card">
-          <h3>+15 clientes satisfechos</h3>
-          <p>Proyectos trabajados con foco en usabilidad, diseño, funcionamiento real y valor concreto para la operación de cada negocio.</p>
+        <article class="stat-card">
+          <strong>+15</strong>
+          <span>Clientes satisfechos</span>
         </article>
-        <article class="feature-card">
-          <h3>Portfolio orientado a resultados</h3>
-          <p>Experiencia en soluciones comerciales, operativas e internas, desde webs de presentación hasta herramientas más complejas a medida.</p>
+        <article class="stat-card">
+          <strong>+5</strong>
+          <span>Años creando soluciones digitales</span>
         </article>
       </div>
     </div>

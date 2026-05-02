@@ -347,7 +347,43 @@
     font-size: 0.9rem;
   }
 
-  @media (max-width: 960px) {
+    .service-card, .process-card, .feature-card, .stat-card, .contact-box, .btn-primary, .btn-ghost {
+    transition: transform 220ms ease, box-shadow 220ms ease, border-color 220ms ease, background 220ms ease, opacity 220ms ease;
+  }
+
+  .service-card:hover, .process-card:hover, .feature-card:hover, .stat-card:hover {
+    transform: translateY(-4px);
+    border-color: var(--border2);
+    box-shadow: 0 22px 44px rgba(0,0,0,0.24);
+  }
+
+  .reveal-section, .reveal-item {
+    opacity: 0;
+    transform: translateY(22px);
+    transition: opacity 700ms ease, transform 700ms ease;
+    will-change: opacity, transform;
+  }
+
+  .reveal-item {
+    transition-duration: 820ms;
+  }
+
+  .is-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .stats-grid .reveal-item:nth-child(2),
+  .services-grid .reveal-item:nth-child(2),
+  .process-grid .reveal-item:nth-child(2),
+  .feature-grid .reveal-item:nth-child(2) { transition-delay: 90ms; }
+
+  .stats-grid .reveal-item:nth-child(3),
+  .services-grid .reveal-item:nth-child(3),
+  .process-grid .reveal-item:nth-child(3),
+  .feature-grid .reveal-item:nth-child(3) { transition-delay: 180ms; }
+
+@media (max-width: 960px) {
     .nav-links { display: none; }
     .services-grid, .process-grid, .feature-grid, .stats-grid, .contact-box { grid-template-columns: 1fr; display: grid; }
     .hero { padding: 7rem 1.25rem 4rem; }
@@ -369,7 +405,7 @@
     </ul>
   </nav>
 
-  <section class="hero" id="inicio">
+  <section class="reveal-section hero" id="inicio">
     <div class="hero-grid-bg"></div>
     <div class="hero-glow"></div>
     <div class="hero-content">
@@ -386,7 +422,7 @@
     <div class="hero-scroll">Scroll</div>
   </section>
 
-  <section id="servicios">
+  <section class="reveal-section" id="servicios">
     <div class="container">
       <div class="section-heading">
         <div class="section-label">Servicios</div>
@@ -396,32 +432,32 @@
         </p>
       </div>
       <div class="services-grid">
-        <article class="service-card">
+        <article class="service-card reveal-item">
           <span class="service-index">01</span>
           <h3>Desarrollo Web</h3>
           <p>Páginas web profesionales, landing pages, sitios institucionales y webs comerciales con diseño moderno y enfoque en conversión.</p>
         </article>
-        <article class="service-card">
+        <article class="service-card reveal-item">
           <span class="service-index">02</span>
           <h3>Sistemas y Dashboards</h3>
           <p>Paneles internos, herramientas de gestión, interfaces operativas y soluciones a medida para ordenar información y procesos.</p>
         </article>
-        <article class="service-card">
+        <article class="service-card reveal-item">
           <span class="service-index">03</span>
           <h3>Automatización de Procesos</h3>
           <p>Automatizaciones e integraciones para ahorrar tiempo, reducir tareas manuales y hacer más eficiente la operación.</p>
         </article>
-        <article class="service-card">
+        <article class="service-card reveal-item">
           <span class="service-index">04</span>
           <h3>Chatbots</h3>
           <p>Asistentes conversacionales para atención al cliente, captación de leads, soporte y organización de consultas.</p>
         </article>
-        <article class="service-card">
+        <article class="service-card reveal-item">
           <span class="service-index">05</span>
           <h3>Agentes de IA</h3>
           <p>Soluciones inteligentes personalizadas para ayudar a vender, responder, analizar información o asistir equipos.</p>
         </article>
-        <article class="service-card">
+        <article class="service-card reveal-item">
           <span class="service-index">06</span>
           <h3>Soluciones a Medida</h3>
           <p>Herramientas digitales desarrolladas según la necesidad específica de cada cliente, proyecto o negocio.</p>
@@ -430,7 +466,7 @@
     </div>
   </section>
 
-  <section id="experiencia">
+  <section class="reveal-section" id="experiencia">
     <div class="container">
       <div class="section-heading">
         <div class="section-label">Experiencia</div>
@@ -438,15 +474,15 @@
         <p>Trabajo desarrollando soluciones digitales pensadas para resolver necesidades concretas, mejorar procesos y acompañar el crecimiento de negocios, marcas y proyectos.</p>
       </div>
       <div class="stats-grid">
-        <article class="stat-card">
+        <article class="stat-card reveal-item">
           <strong>+20</strong>
           <span>Proyectos desarrollados</span>
         </article>
-        <article class="stat-card">
+        <article class="stat-card reveal-item">
           <strong>+15</strong>
           <span>Clientes satisfechos</span>
         </article>
-        <article class="stat-card">
+        <article class="stat-card reveal-item">
           <strong>+2</strong>
           <span>Años creando soluciones digitales</span>
         </article>
@@ -454,7 +490,7 @@
     </div>
   </section>
 
-  <section class="alt" id="proceso" style="margin-top: 4.5rem;">
+  <section class="reveal-section alt" id="proceso" style="margin-top: 4.5rem;">
     <div class="container">
       <div class="section-heading">
         <div class="section-label">Proceso</div>
@@ -462,17 +498,17 @@
         <p>Cada solución se construye con criterio visual, lógica funcional y foco en el resultado.</p>
       </div>
       <div class="process-grid">
-        <article class="process-card">
+        <article class="process-card reveal-item">
           <span class="process-index">01</span>
           <h3>Relevamiento</h3>
           <p>Entiendo el problema, el objetivo y el tipo de herramienta que más conviene desarrollar.</p>
         </article>
-        <article class="process-card">
+        <article class="process-card reveal-item">
           <span class="process-index">02</span>
           <h3>Estrategia</h3>
           <p>Defino estructura, flujo, experiencia de usuario y alcance técnico necesario.</p>
         </article>
-        <article class="process-card">
+        <article class="process-card reveal-item">
           <span class="process-index">03</span>
           <h3>Diseño y Desarrollo</h3>
           <p>Construyo una solución moderna, clara, funcional y lista para ser usada en serio.</p>
@@ -481,22 +517,22 @@
     </div>
   </section>
 
-  <section id="diferencial">
+  <section class="reveal-section" id="diferencial">
     <div class="container">
       <div class="section-heading">
         <div class="section-label">Diferencial</div>
         <h2>No hago solo diseño o código, desarrollo soluciones que sirven</h2>
       </div>
       <div class="feature-grid">
-        <article class="feature-card">
+        <article class="feature-card reveal-item">
           <h3>Visión práctica</h3>
           <p>Busco que cada proyecto tenga una utilidad concreta, no solo una buena estética.</p>
         </article>
-        <article class="feature-card">
+        <article class="feature-card reveal-item">
           <h3>Diseño + negocio</h3>
           <p>Trabajo combinando imagen, estructura, claridad comercial y experiencia de usuario.</p>
         </article>
-        <article class="feature-card">
+        <article class="feature-card reveal-item">
           <h3>Tecnología aplicada</h3>
           <p>Uso automatización, IA y desarrollo a medida para resolver necesidades reales.</p>
         </article>
@@ -504,9 +540,9 @@
     </div>
   </section>
 
-  <section id="contacto">
+  <section class="reveal-section" id="contacto">
     <div class="container">
-      <div class="contact-box">
+      <div class="contact-box reveal-item">
         <div>
           <div class="section-label">Contacto</div>
           <h2>Convierte tu idea en una solución digital real</h2>
@@ -525,5 +561,23 @@
   <footer>
     <div class="container">Desarrollo de soluciones digitales a medida.</div>
   </footer>
+<script>
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('is-visible');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.14, rootMargin: '0px 0px -40px 0px' });
+
+  document.querySelectorAll('.reveal-section, .reveal-item').forEach((el) => observer.observe(el));
+
+  window.addEventListener('load', () => {
+    document.querySelectorAll('.hero .reveal-item, .hero.reveal-section').forEach((el, i) => {
+      setTimeout(() => el.classList.add('is-visible'), 100 + i * 80);
+    });
+  });
+</script>
 </body>
 </html>

@@ -354,10 +354,50 @@
   }
 
   footer {
-    padding: 2rem;
+    padding: 3rem 2rem;
     border-top: 1px solid var(--border);
     color: var(--text3);
     font-size: 0.9rem;
+  }
+
+  .footer-grid {
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr 0.9fr 0.9fr;
+    gap: 2rem;
+  }
+
+  .footer-brand {
+    display: grid;
+    gap: 1rem;
+  }
+
+  .footer-brand p {
+    color: var(--text2);
+    max-width: 360px;
+  }
+
+  .footer-column {
+    display: grid;
+    gap: 0.65rem;
+    align-content: start;
+  }
+
+  .footer-column h4 {
+    font-family: var(--font-head);
+    color: var(--text);
+    font-size: 1rem;
+    margin-bottom: 0.4rem;
+  }
+
+  .footer-column a,
+  .footer-column span {
+    color: var(--text2);
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+
+  .footer-column a:hover {
+    color: var(--text);
   }
 
     .service-card, .process-card, .feature-card, .stat-card, .contact-box, .btn-primary, .btn-ghost {
@@ -398,7 +438,7 @@
 
 @media (max-width: 960px) {
     .nav-links { display: none; }
-    .services-grid, .process-grid, .feature-grid, .stats-grid, .contact-box { grid-template-columns: 1fr; display: grid; }
+    .services-grid, .process-grid, .feature-grid, .stats-grid, .contact-box, .footer-grid { grid-template-columns: 1fr; display: grid; }
     .hero { padding: 7rem 1.25rem 4rem; }
     section { padding: 4.5rem 1.25rem; }
     nav { padding: 1rem 1.25rem; }
@@ -572,7 +612,31 @@
   </section>
 
   <footer>
-    <div class="container">Desarrollo de soluciones digitales a medida.</div>
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#inicio" class="nav-logo"><img src="assets/luca-logo.png" alt="L. Digital Solutions logo"><span>L. Digital Solutions</span></a>
+        <p>Desarrollo web, automatización, dashboards, sistemas, chatbots y agentes de IA para negocios y marcas.</p>
+      </div>
+      <div class="footer-column">
+        <h4>Navegación</h4>
+        <a href="#servicios">Servicios</a>
+        <a href="#experiencia">Experiencia</a>
+        <a href="#proceso">Proceso</a>
+        <a href="#diferencial">Diferencial</a>
+      </div>
+      <div class="footer-column">
+        <h4>Contacto</h4>
+        <a href="mailto:lucadigitalsolutions@gmail.com">lucadigitalsolutions@gmail.com</a>
+        <a href="https://wa.me/5491127280413" target="_blank" rel="noreferrer">WhatsApp</a>
+      </div>
+      <div class="footer-column">
+        <h4>Servicios</h4>
+        <span>Landing pages</span>
+        <span>Sistemas a medida</span>
+        <span>Automatización</span>
+        <span>Agentes de IA</span>
+      </div>
+    </div>
   </footer>
 <script>
   const observer = new IntersectionObserver((entries) => {

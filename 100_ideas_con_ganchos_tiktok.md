@@ -7,154 +7,154 @@ Nicho: automatización, agentes de IA, sistemas digitales, procesos para negocio
 ## Videos cortos
 
 1. **Gancho:** ¿Seguís respondiendo clientes a mano?
-   - Idea: Mostrar mensajes acumulados vs agente de IA respondiendo automáticamente.
+   - **Prompt:** Crear video vertical 9:16 para TikTok, duración 15 a 20 segundos. Mostrar a una persona saturada respondiendo mensajes uno por uno en WhatsApp/Instagram, con notificaciones acumuladas y cara de estrés. Luego mostrar un agente de IA respondiendo automáticamente, ordenando consultas y dejando datos registrados. Estilo moderno, cortes rápidos, subtítulos grandes y música tecnológica. **CTA final:** Automatizá tu atención. Escribime.
 
 2. **Gancho:** Estás perdiendo ventas por responder tarde.
-   - Idea: Comparar un cliente esperando respuesta con una respuesta automática inmediata.
+   - **Prompt:** Video vertical 9:16, 15 a 20 segundos. Empezar con mensajes de clientes esperando respuesta y un texto rojo de alerta. Mostrar cómo el cliente se va con otra opción por la demora. Después mostrar una respuesta automática inmediata con IA, datos guardados y seguimiento listo. Estilo urgente, comercial y dinámico. **CTA final:** No pierdas más consultas. Automatizá tu negocio.
 
 3. **Gancho:** Tu negocio no necesita más horas, necesita automatización.
-   - Idea: Mostrar tareas repetitivas resolviéndose solas.
+   - **Prompt:** Crear video para TikTok mostrando a una persona trabajando tarde, cansada, rodeada de tareas repetitivas. Transicionar a un sistema automatizado resolviendo respuestas, turnos, pedidos o registros sin intervención manual. Visuales limpios, dashboard, checks verdes y sensación de alivio. Voz rápida y profesional. **CTA final:** Trabajá mejor, no más horas.
 
 4. **Gancho:** Esto es lo que pasa cuando automatizás tu atención.
-   - Idea: Antes: caos en WhatsApp. Después: respuestas ordenadas con IA.
+   - **Prompt:** Video vertical con formato antes/después. Antes: chats desordenados, clientes esperando, dueño estresado. Después: agente de IA responde en segundos, clasifica consultas, guarda datos y avisa cuáles son importantes. Usar textos cortos en pantalla y ritmo ágil. **CTA final:** Automatizá tu atención al cliente.
 
 5. **Gancho:** Nunca manejes tu negocio solo con planillas.
-   - Idea: Mostrar errores, datos duplicados y después un sistema ordenado.
+   - **Prompt:** Crear video con tono de advertencia. Mostrar Excel/planillas, errores, datos duplicados, fórmulas rotas y archivos desordenados. Luego mostrar un sistema digital con dashboard, información centralizada y procesos automáticos. Estilo profesional, con contraste visual entre caos y orden. **CTA final:** Convertí tus planillas en un sistema.
 
 6. **Gancho:** ¿Manual o automatizado? Mirá la diferencia.
-   - Idea: Pantalla dividida entre trabajo manual y sistema automatizado.
+   - **Prompt:** Video 9:16 con pantalla dividida horizontal. Arriba: persona estresada haciendo tareas manuales, papeles, planillas, mensajes y errores. Abajo: persona tranquila con sistema automatizado, dashboard y tareas completándose solas. Texto central: MANUAL VS AUTOMATIZADO. Final con zoom abajo. **CTA final:** Automatizá tu negocio. Escribime.
 
 7. **Gancho:** Tu negocio puede responder mientras dormís.
-   - Idea: Agente de IA atendiendo consultas de noche.
+   - **Prompt:** Mostrar escena nocturna: dueño descansando mientras entran mensajes de clientes. El agente de IA responde automáticamente, toma datos y deja todo listo para revisar al día siguiente. Estilo tecnológico, luces azules, texto 24/7 y sensación de tranquilidad. **CTA final:** Tu negocio puede atender 24/7.
 
 8. **Gancho:** Si respondés siempre lo mismo, esto es para vos.
-   - Idea: Automatización de preguntas frecuentes.
+   - **Prompt:** Video mostrando preguntas repetidas: precios, horarios, disponibilidad, ubicación, formas de pago. La persona se cansa de responder lo mismo. Luego aparece un agente de IA contestando esas preguntas de forma automática y natural. **CTA final:** Automatizá las preguntas frecuentes.
 
 9. **Gancho:** 3 tareas que una IA puede hacer por tu negocio.
-   - Idea: Responder, ordenar datos y generar seguimientos.
+   - **Prompt:** Video tipo lista rápida. Mostrar texto grande: 1) responder clientes, 2) tomar datos, 3) hacer seguimiento. Para cada punto, mostrar una escena visual corta con chat automático, formulario completándose y recordatorio enviado. Estilo dinámico y claro. **CTA final:** Pedime un agente de IA.
 
 10. **Gancho:** ¿Cuánto tiempo perdés copiando y pegando datos?
-    - Idea: Mostrar una tarea repetitiva y cómo se automatiza.
+    - **Prompt:** Mostrar a una persona copiando datos de WhatsApp a Excel, repitiendo la misma tarea muchas veces. Agregar contador de tiempo perdido. Después mostrar automatización pasando datos automáticamente a una base o sistema. Visual con flechas, checks y dashboard. **CTA final:** Automatizá tus procesos repetitivos.
 
 11. **Gancho:** El error que hace que muchos negocios parezcan poco profesionales.
-    - Idea: Mensajes desordenados, respuestas tarde, sin sistema.
+    - **Prompt:** Mostrar respuestas tardías, mensajes mal escritos, clientes sin seguimiento y datos perdidos. Luego mostrar una atención ordenada con IA: respuestas claras, rápidas y consistentes. Tono educativo/comercial, ideal para dueños de negocios. **CTA final:** Profesionalizá tu atención.
 
 12. **Gancho:** Así se ve un negocio trabajando con IA.
-    - Idea: Dashboard, respuestas automáticas, datos organizados.
+    - **Prompt:** Video aspiracional y tecnológico. Mostrar celular con consultas entrando, agente de IA respondiendo, dashboard con métricas, tareas automáticas y dueño tranquilo revisando resultados. Usar colores azul/verde, subtítulos limpios y música moderna. **CTA final:** Sumá IA a tu negocio.
 
 13. **Gancho:** Tu WhatsApp puede trabajar por vos.
-    - Idea: Mostrar automatización de consultas por WhatsApp.
+    - **Prompt:** Mostrar WhatsApp recibiendo consultas mientras la persona está ocupada. La IA responde precios, horarios, disponibilidad y toma datos. Después mostrar resumen de clientes interesados. Estilo simple, visual y comercial. **CTA final:** Automatizá tu WhatsApp.
 
 14. **Gancho:** De caos a control en 20 segundos.
-    - Idea: Transformación visual de negocio manual a automatizado.
+    - **Prompt:** Empezar con caos: papeles, planillas, mensajes, alarmas y estrés. Hacer transición rápida a control: sistema automatizado, tablero limpio, clientes respondidos y tareas completadas. Usar sonido de transformación y textos grandes. **CTA final:** Ordená tu negocio con automatización.
 
 15. **Gancho:** Esto no es futuro, ya lo podés usar hoy.
-    - Idea: Mostrar agentes de IA aplicados a negocios reales.
+    - **Prompt:** Mostrar ejemplos reales de automatización en negocios: chat con IA, sistema de pedidos, turnos automáticos y reportes. Tono moderno pero simple, evitando parecer demasiado técnico. **CTA final:** Implementá IA en tu negocio hoy.
 
 16. **Gancho:** Si tenés muchos mensajes, necesitás esto.
-    - Idea: Agente filtrando consultas y respondiendo clientes.
+    - **Prompt:** Mostrar bandeja llena de mensajes y una persona sin poder responder todo. Después mostrar agente de IA clasificando consultas: interesado, soporte, precio, turno, urgente. Visual con etiquetas y orden. **CTA final:** Organizá tus consultas automáticamente.
 
 17. **Gancho:** ¿Tu negocio depende de que estés conectado todo el día?
-    - Idea: Mostrar dueño saturado vs sistema activo 24/7.
+    - **Prompt:** Mostrar al dueño mirando el celular en todo momento, incluso comiendo o descansando. Luego mostrar automatización atendiendo mensajes mientras él trabaja tranquilo. Estilo relatable, con humor leve y cierre profesional. **CTA final:** Dejá que la IA te ayude.
 
 18. **Gancho:** La automatización no reemplaza tu negocio, lo ordena.
-    - Idea: Explicar que la IA ayuda a trabajar mejor.
+    - **Prompt:** Video explicativo corto. Mostrar que la IA no reemplaza al dueño, sino que resuelve tareas repetitivas: responder, registrar, recordar y organizar. Mostrar al dueño tomando mejores decisiones con más tiempo libre. **CTA final:** Automatizá sin perder control.
 
 19. **Gancho:** Cómo dejar de perder consultas por Instagram.
-    - Idea: Automatizar mensajes, preguntas frecuentes y derivaciones.
+    - **Prompt:** Mostrar DMs de Instagram acumulados y clientes preguntando precios. Luego mostrar respuestas automáticas, filtros de interesados y datos guardados. Estilo redes sociales, con interfaz tipo Instagram y textos llamativos. **CTA final:** Automatizá tus DMs.
 
 20. **Gancho:** Lo que un agente de IA puede hacer en 10 segundos.
-    - Idea: Responder consulta, tomar datos y registrar cliente.
+    - **Prompt:** Video cronometrado con timer en pantalla. En 10 segundos, mostrar: recibe consulta, responde, pide nombre/teléfono, registra datos y deja aviso. Ritmo rápido, sonidos de clicks/checks y subtítulos grandes. **CTA final:** Esto puede trabajar en tu negocio.
 
 21. **Gancho:** ¿Todavía anotás pedidos en papel?
-    - Idea: Mostrar pedido manual vs formulario/sistema automatizado.
+    - **Prompt:** Mostrar pedidos escritos en papel, errores y confusión. Luego mostrar formulario o sistema que recibe pedidos automáticamente, calcula datos y deja todo ordenado. Ideal para negocios de comida, tiendas o servicios. **CTA final:** Digitalizá tus pedidos.
 
 22. **Gancho:** Esta es la diferencia entre trabajar mucho y trabajar inteligente.
-    - Idea: Comparar esfuerzo manual con procesos automáticos.
+    - **Prompt:** Dividir el video en dos etapas. Trabajar mucho: persona cansada haciendo todo manual. Trabajar inteligente: automatizaciones, agente de IA y dashboard. Usar textos contrastantes y música motivadora. **CTA final:** Trabajá inteligente con automatización.
 
 23. **Gancho:** Un cliente pregunta, la IA responde.
-    - Idea: Simulación de chat automático profesional.
+    - **Prompt:** Mostrar conversación simulada: cliente pregunta precio/horario/disponibilidad. La IA responde natural, pide datos y ofrece siguiente paso. Mostrar que el dueño recibe la consulta ordenada. **CTA final:** Agente de IA para tu negocio.
 
 24. **Gancho:** No necesitás contratar más gente para todo.
-    - Idea: Automatizar tareas simples antes de escalar equipo.
+    - **Prompt:** Mostrar negocio saturado pensando en contratar para responder mensajes o cargar datos. Luego explicar visualmente que primero puede automatizar tareas repetitivas. Tono práctico, no exagerado. **CTA final:** Automatizá antes de escalar.
 
 25. **Gancho:** Tu negocio está creciendo, pero tu sistema no.
-    - Idea: Mostrar cómo Excel queda chico.
+    - **Prompt:** Mostrar aumento de clientes, mensajes y pedidos, mientras el negocio sigue usando planillas y notas. Luego mostrar sistema a medida que acompaña el crecimiento. Estilo empresarial moderno. **CTA final:** Prepará tu negocio para crecer.
 
 26. **Gancho:** 5 señales de que necesitás automatizar.
-    - Idea: Mensajes sin responder, errores, planillas, demoras, estrés.
+    - **Prompt:** Video tipo checklist rápido. Señales: respondés tarde, repetís tareas, perdés datos, dependés de Excel, no hacés seguimiento. Cada señal con escena corta y texto grande. **CTA final:** Si te pasa, escribime.
 
 27. **Gancho:** Esto pasa cuando no tenés procesos claros.
-    - Idea: Mostrar clientes confundidos y tareas perdidas.
+    - **Prompt:** Mostrar clientes confundidos, pedidos duplicados, tareas olvidadas y equipo desordenado. Luego mostrar flujo automatizado con pasos claros: consulta, respuesta, registro, seguimiento. **CTA final:** Armá procesos digitales.
 
 28. **Gancho:** Una IA puede atender mejor de lo que pensás.
-    - Idea: Respuestas naturales, rápidas y ordenadas.
+    - **Prompt:** Mostrar prejuicio inicial: “una IA responde mal”. Luego mostrar conversación fluida, clara y profesional con agente de IA. Enfatizar respuestas naturales, rápidas y útiles. **CTA final:** Probá atención con IA.
 
 29. **Gancho:** Automatizar no es caro, caro es perder tiempo todos los días.
-    - Idea: Mostrar costo oculto del trabajo manual.
+    - **Prompt:** Mostrar cálculo visual de tiempo perdido por día/semana en tareas manuales. Después mostrar automatización reduciendo ese tiempo. Estilo educativo con números grandes y ejemplos simples. **CTA final:** Ahorrá tiempo con automatización.
 
 30. **Gancho:** Si tu negocio usa WhatsApp, puede usar IA.
-    - Idea: Explicar automatizaciones simples para WhatsApp.
+    - **Prompt:** Mostrar WhatsApp como canal principal del negocio. Luego mostrar IA respondiendo preguntas, clasificando clientes y dejando información lista. Tono simple: no hace falta sistema complejo para empezar. **CTA final:** Sumá IA a tu WhatsApp.
 
 31. **Gancho:** ¿Qué haría una IA en tu negocio?
-    - Idea: Ejemplos por rubro: estética, comercio, servicios, turnos.
+    - **Prompt:** Video por rubros. Mostrar ejemplos rápidos: estética agenda turnos, comercio responde stock/precios, servicios filtra consultas, restaurante toma pedidos. Estilo dinámico y variado. **CTA final:** Contame tu rubro y lo automatizamos.
 
 32. **Gancho:** De responder mensajes a cerrar ventas automáticamente.
-    - Idea: Flujo de atención + calificación + CTA.
+    - **Prompt:** Mostrar flujo comercial: cliente pregunta, IA responde, califica interés, ofrece siguiente paso y guarda datos para seguimiento. Visual con embudo de ventas simple. **CTA final:** Automatizá tu embudo de atención.
 
 33. **Gancho:** El cliente no espera. La IA tampoco.
-    - Idea: Respuesta instantánea como ventaja competitiva.
+    - **Prompt:** Empezar con cliente impaciente mirando el celular. Luego mostrar respuesta instantánea de IA y cliente avanzando en la compra. Tono urgente y comercial, con textos cortos. **CTA final:** Respondé al instante.
 
 34. **Gancho:** Así se automatiza una consulta de cliente.
-    - Idea: Paso a paso visual: mensaje, respuesta, registro, seguimiento.
+    - **Prompt:** Paso a paso visual: 1) llega mensaje, 2) IA entiende, 3) responde, 4) pide datos, 5) registra, 6) avisa al dueño. Usar animaciones de flechas y checks. **CTA final:** Hacé este flujo en tu negocio.
 
 35. **Gancho:** Tu negocio necesita un sistema, no más parches.
-    - Idea: Criticar soluciones improvisadas: papel, notas, Excel.
+    - **Prompt:** Mostrar parches digitales: notas, Excel, WhatsApp, capturas, papeles. Luego unir todo en un sistema centralizado con automatizaciones. Estilo transformación digital. **CTA final:** Ordená tu operación.
 
 36. **Gancho:** ¿Querés vender más sin estar todo el día pegado al celular?
-    - Idea: Automatizar captación y respuestas.
+    - **Prompt:** Mostrar dueño pegado al celular y perdiendo foco. Luego IA atendiendo consultas y filtrando interesados mientras él se ocupa de vender/cerrar. **CTA final:** Automatizá tu captación.
 
 37. **Gancho:** Esto es lo que tus clientes esperan hoy.
-    - Idea: Respuestas rápidas, claras y profesionales.
+    - **Prompt:** Mostrar expectativas actuales: respuesta rápida, claridad, disponibilidad y seguimiento. Después mostrar cómo un agente de IA cubre esos puntos. Estilo limpio, profesional y directo. **CTA final:** Mejorá la experiencia de tus clientes.
 
 38. **Gancho:** La IA no es solo para empresas grandes.
-    - Idea: Mostrar uso en negocios chicos y medianos.
+    - **Prompt:** Mostrar negocios pequeños usando IA: local, emprendedor, servicio profesional. Explicar visualmente que se puede empezar con automatizaciones simples y útiles. **CTA final:** IA para negocios reales.
 
 39. **Gancho:** Antes respondías uno por uno. Ahora responde tu agente.
-    - Idea: Evolución de atención manual a IA.
+    - **Prompt:** Mostrar antes: persona respondiendo manualmente muchas conversaciones. Después: agente respondiendo varias consultas a la vez, dejando todo ordenado. **CTA final:** Creá tu agente de IA.
 
 40. **Gancho:** Automatizá lo repetitivo y enfocá tu energía en vender.
-    - Idea: Dueño liberando tiempo para tareas importantes.
+    - **Prompt:** Mostrar tareas repetitivas alejando al dueño de vender. Luego automatizar respuestas, registros y seguimientos, dejando al dueño enfocado en clientes importantes. **CTA final:** Liberá tiempo para crecer.
 
 41. **Gancho:** ¿Tu negocio parece profesional por internet?
-    - Idea: Mostrar mala presencia digital vs sistema y diseño profesional.
+    - **Prompt:** Comparar presencia improvisada vs presencia digital profesional: web, sistema, respuestas claras, diseño limpio y automatización. Tono comercial y visual moderno. **CTA final:** Mejorá tu presencia digital.
 
 42. **Gancho:** Un buen sistema te evita mil problemas.
-    - Idea: Alertas, registros y orden automático.
+    - **Prompt:** Mostrar problemas frecuentes: datos perdidos, tareas olvidadas, errores de stock/turnos, respuestas inconsistentes. Luego mostrar sistema con alertas, registros y automatizaciones. **CTA final:** Implementá un sistema a medida.
 
 43. **Gancho:** El problema no es vender, es no estar preparado para responder.
-    - Idea: Publicidad trae consultas, sistema las atiende.
+    - **Prompt:** Mostrar campaña/publicación que trae muchas consultas, pero el negocio no responde a tiempo. Luego IA absorbe consultas, responde y filtra interesados. **CTA final:** Prepará tu negocio antes de vender más.
 
 44. **Gancho:** Si hacés esto todos los días, se puede automatizar.
-    - Idea: Copiar datos, responder consultas, enviar recordatorios.
+    - **Prompt:** Mostrar acciones repetidas: copiar datos, responder precios, confirmar turnos, enviar recordatorios, armar reportes. Luego mostrar todas convertidas en flujos automáticos. **CTA final:** Automatizá tus tareas diarias.
 
 45. **Gancho:** La IA puede ser tu primer empleado digital.
-    - Idea: Agente virtual trabajando para el negocio.
+    - **Prompt:** Presentar al agente de IA como empleado digital: atiende consultas, ordena datos, trabaja 24/7 y no se cansa. Visual con avatar/robot profesional, no caricaturesco. **CTA final:** Sumá tu empleado digital.
 
 46. **Gancho:** ¿Cuánto vale una consulta perdida?
-    - Idea: Mostrar impacto de no responder a tiempo.
+    - **Prompt:** Mostrar una consulta sin responder convirtiéndose en venta perdida. Agregar cálculo visual simple: 1 consulta x ticket promedio = dinero perdido. Luego mostrar IA evitando esa pérdida. **CTA final:** No dejes ventas en visto.
 
 47. **Gancho:** Esto separa a un negocio ordenado de uno improvisado.
-    - Idea: Procesos, sistemas y automatización.
+    - **Prompt:** Comparar negocio improvisado con chats y papeles vs negocio ordenado con sistema, dashboard, automatizaciones y seguimiento. Estilo premium/profesional. **CTA final:** Dale estructura a tu negocio.
 
 48. **Gancho:** Tu negocio puede trabajar aunque vos no estés.
-    - Idea: Automatización funcionando fuera de horario.
+    - **Prompt:** Mostrar dueño fuera de horario o ocupado, mientras el sistema sigue respondiendo, registrando y enviando avisos. Sensación de tranquilidad y control. **CTA final:** Automatizá y ganá libertad.
 
 49. **Gancho:** 3 cosas que podés automatizar esta semana.
-    - Idea: Respuestas, turnos y seguimiento de clientes.
+    - **Prompt:** Video tipo lista accionable: 1) respuestas frecuentes, 2) turnos/pedidos, 3) seguimiento de clientes. Mostrar ejemplos visuales claros y rápidos. **CTA final:** Empezá con una automatización simple.
 
 50. **Gancho:** El futuro de los negocios chicos es automatizado.
-    - Idea: Mensaje aspiracional con ejemplos concretos.
+    - **Prompt:** Video inspiracional. Mostrar negocios pequeños usando tecnología: WhatsApp con IA, dashboards simples, procesos automáticos y atención profesional. Tono optimista, moderno y cercano. **CTA final:** Hacé que tu negocio trabaje mejor.
 
 ---
 
